@@ -33,4 +33,6 @@ public set claim(value: FormGroup) {
   submitData() {
     console.log(this.claim)
   }
+  
 }
+

@@ -14,6 +14,7 @@ import { PaymentComponent } from './payment/payment.component';
 import { ClaimComponent } from './claim/claim.component';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { RenewComponent } from './renew/renew.component';
+import { CalculateInsuranceComponent } from './calculate-insurance/calculate-insurance.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { RenewComponent } from './renew/renew.component';
         PlanTableComponent,
         PaymentComponent,
         ClaimComponent,
-        RenewComponent
+        RenewComponent,
+        CalculateInsuranceComponent
  
   ],
   imports: [
@@ -35,6 +37,7 @@ import { RenewComponent } from './renew/renew.component';
     AppRoutingModule,
     NgbModule,FormsModule,ReactiveFormsModule
   ],
+  exports:[ClaimComponent],
   providers: [],
   bootstrap: [AppComponent]
 })

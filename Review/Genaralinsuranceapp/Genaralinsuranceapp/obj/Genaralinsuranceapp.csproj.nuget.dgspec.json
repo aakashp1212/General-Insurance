@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sindh\\lti\\asp.net\\Genaralinsuranceapp\\Genaralinsuranceapp\\Genaralinsuranceapp.csproj": {}
+    "D:\\General-Insurance\\Review\\Genaralinsuranceapp\\Genaralinsuranceapp\\Genaralinsuranceapp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sindh\\lti\\asp.net\\Genaralinsuranceapp\\Genaralinsuranceapp\\Genaralinsuranceapp.csproj": {
+    "D:\\General-Insurance\\Review\\Genaralinsuranceapp\\Genaralinsuranceapp\\Genaralinsuranceapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sindh\\lti\\asp.net\\Genaralinsuranceapp\\Genaralinsuranceapp\\Genaralinsuranceapp.csproj",
+        "projectUniqueName": "D:\\General-Insurance\\Review\\Genaralinsuranceapp\\Genaralinsuranceapp\\Genaralinsuranceapp.csproj",
         "projectName": "Genaralinsuranceapp",
-        "projectPath": "C:\\Users\\sindh\\lti\\asp.net\\Genaralinsuranceapp\\Genaralinsuranceapp\\Genaralinsuranceapp.csproj",
-        "packagesPath": "C:\\Users\\sindh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sindh\\lti\\asp.net\\Genaralinsuranceapp\\Genaralinsuranceapp\\obj\\",
+        "projectPath": "D:\\General-Insurance\\Review\\Genaralinsuranceapp\\Genaralinsuranceapp\\Genaralinsuranceapp.csproj",
+        "packagesPath": "C:\\Users\\vamsi\\.nuget\\packages\\",
+        "outputPath": "D:\\General-Insurance\\Review\\Genaralinsuranceapp\\Genaralinsuranceapp\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\sindh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\vamsi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -67,8 +63,20 @@
           "warn": true,
           "downloadDependencies": [
             {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
               "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.22, 3.1.22]"
+              "version": "[3.1.23, 3.1.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
             }
           ],
           "frameworkReferences": {
@@ -79,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

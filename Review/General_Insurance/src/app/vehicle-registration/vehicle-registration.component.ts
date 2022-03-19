@@ -13,6 +13,9 @@ export class VehicleRegistrationComponent implements OnInit {
     Manufacturer: ['',
         [Validators.required]
     ],
+    Purchasedate: ['',
+    [Validators.required]
+],
     Model: [
         '',
         [Validators.required]

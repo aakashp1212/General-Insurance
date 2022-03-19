@@ -14,6 +14,16 @@
              please enter your fullname 
         </div>
         </div>
+        <div class="form-group">
+            <label for="Purchasedate">please enter your Vehicle Purchasedate:&nbsp;</label>
+            <input type="text" class="form-control" name="Purchasedate" id="Purchasedate" formControlName="Purchasedate">
+        </div>
+        <div [hidden]="vehicleregistration.controls['Purchasedate'].valid || vehicleregistration.controls['Purchasedate'].pristine"
+        class="alert alert-danger">
+        <div *ngIf="vehicleregistration.controls['Purchasedate'].errors?.['required']">
+             please enter your Purchasedate
+        </div>
+        </div>
     
     <div class="form-group">
         <label for="Model">Please enter your Vehicle Model:&nbsp;</label>
