@@ -1,6 +1,11 @@
 
 
 <form [formGroup]="registrationform" (ngSubmit)="submitData()">
+   
+   <div class="head"> 
+       <h1>Enter Your Details!</h1>
+   </div>
+   <div class="box1">  
     <div class="header">
         <h1>Please Register Here </h1>    
       </div>
@@ -111,13 +116,15 @@
         </div>    
         <div *ngIf="registrationform.controls['retypepassword'].errors?.['conformedValiator']">
            please make sure that password and confirm password should be same
+        </div>   
             
-            
-        </div>
+       
     </div>
     <div id="submitDiv">
         <button type="submit" class="btn btn-success"  [disabled]="!registrationform.valid">Submit</button>
     </div>
+</div>
+
 </form>
 
 <!-----DOB need to be added ---->

@@ -1,17 +1,22 @@
 <form [formGroup]="claim" (ngSubmit)="submitData()">
+
+  <div class="head">
+     <h1>Enter Your Policy Details! </h1> 
+  </div>
+  <div class="box1">
   <div class="header">
       <h1>Please Enter The Below Credentials </h1>    
     </div>
 
   <div class="form-group">
-      <label for="policynumber">please enter your PolicyNumber:&nbsp;</label>
+      <label for="policynumber">Please enter your PolicyNumber:&nbsp;</label>
       <input type="number" class="form-control" name="policynumber" id="policynumber" formControlName="policynumber">
   </div>
 
   <div [hidden]="claim.controls['policynumber'].valid || claim.controls['policynumber'].pristine"
       class="alert alert-danger">
       <div *ngIf="claim.controls['policynumber'].errors?.['required']">
-           please enter your fullname 
+           Please enter your fullname 
       </div>
       </div>
   
@@ -28,7 +33,7 @@
       </div> 
       <div class="row">
           <div class="col-md-2">
-            <label for="FormControlCategory" style="color: lightseagreen;font-size: medium;" ><b>Category*:</b></label>
+            <label for="FormControlCategory" style="color: black;font-size: medium;" ><b>Category*:</b></label>
           </div>
           <div class="col-md-6">
             <select  class="form-control"  formControlName="Category" id="Category">
@@ -50,5 +55,6 @@
       
 <div id="submitDiv">
   <button type="submit" class="btn btn-success"  [disabled]="!claim.valid">Submit</button>
+</div>
 </div>
 </form>

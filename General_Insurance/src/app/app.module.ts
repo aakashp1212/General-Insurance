@@ -13,6 +13,9 @@ import { PlanTableComponent } from './plan-table/plan-table.component';
 import { PaymentComponent } from './payment/payment.component';
 import { ClaimComponent } from './claim/claim.component';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import { RenewComponent } from './renew/renew.component';
+import { CalculateInsuranceComponent } from './calculate-insurance/calculate-insurance.component';
+
 
 @NgModule({
   declarations: [
@@ -24,7 +27,9 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms';
         CustomerRegistrationComponent,
         PlanTableComponent,
         PaymentComponent,
-        ClaimComponent
+        ClaimComponent,
+        RenewComponent,
+        CalculateInsuranceComponent
  
   ],
   imports: [
@@ -32,6 +37,7 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms';
     AppRoutingModule,
     NgbModule,FormsModule,ReactiveFormsModule
   ],
+  exports:[ClaimComponent],
   providers: [],
   bootstrap: [AppComponent]
 })

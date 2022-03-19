@@ -4,106 +4,150 @@
      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-  /*
-    width: 0px; 
-    height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1583&q=80"
-    );
-    background-position: center;
-    background-size: contain;
-} */
+  .header{
+      width: max-width;
+      height: 70px;
+      background-color: rgb(44, 44, 160);
+      text-align: center;
+      color: white;
+     border-radius: 20px;
 
-.backgroundimage{
-    background-image: url('https://cdn.dnaindia.com/sites/default/files/styles/full/public/2019/11/22/882261-motor-insurance-dnaindia.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-   
-    height: 100vh;
-    
-}
- h1{
-    color:white;
+  }
+  h1{
+   position: relative;
+   top: 15px; 
+   font-size: 30px;
+  }
+.dashboard{
+    margin-top: 20px;
+    background-color:  rgb(44, 44, 160);
+    height: 50px;
     text-align: center;
-    background-color:rgb(2, 2, 56);
-    padding-top: 15px;
-    padding-bottom: 15px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    font: bold;
+    border-radius: 20px;
 }
-.Homebuttons{
-    background-color:rgb(2, 2, 56);
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    
-  
- 
-  
-}
-h2{
-    color:gold;
-    text-align: left;
-    /* background-color:rgb(2, 2, 56); */
-    padding-top: 70px;
-    padding-bottom: 30px;
-    /* font-family:Georgia, 'Times New Roman', Times, serif; */
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font: bold;
-    font-size: medium;
-    padding-left: 25px;
-}
- .paragraph{
-    
+.flex-container{
     display: flex;
-    display: block;
-    color: aqua;
-    padding-left: 45px;
-    padding-right: 800px;
-    size: 20px;
- 
-  
-
-} 
-li{
-    padding-bottom: 15px;
 }
- .col{
-    flex-basis: 50%;
-    align-items: initial;
-} 
- /* .card{
-    width: 200px;
-    height: 230px;
-    display: inline-block;
-    border-radius: 10px;
-    padding: 15px 25px;
-    box-sizing: border-box;
-    cursor: pointer;
-    margin: 10px 15px;
+.item{
+ padding-left: 170px;
 
-}  */
+ 
+}
 
-.grid-container {
-    display: grid;
-    position: absolute;
-    padding-left: 700px;
-    margin-top: 50px;
-    margin-left: 600px;
+button{
+    color: black;
+    width: 100px;
+    height: 30px;
+   position: relative;
+   top: 10px;
+   font-size: 15px;
+   font-weight: bolder;
+   border-radius: 10px;
+}
+
+.flex-{
     
-    grid-template-columns: auto ;
-    background-color: #2196F3;
-    padding: 10px;
-    max-width: 650px;
-    
-  }
-  .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
+}
+.sixth{
+    height: 300px;
+    background-color: white;
+}
+.sixth .flex4 {
+    display: flex;
+    column-gap: 200px;
+    position: relative;
+    top: 100px;
+    left: 300px;
     text-align: center;
-    width: 620px;
+}
+.sixth p{position: relative;
+top: 40px;
+left: 550px;
+font-size: 30px;
+font-weight: 900;
+color: rgb(58, 56, 56);}
+.fifth .flex3 .item4{
+    color: rgb(78, 74, 74);
+    font-weight: 900;
+}
+.sixth .flex4 .item5{
+    width: 200px;
+    height: 300px;
+}
+.sixth span{
+    color:  rgb(44, 44, 160);
+    font-size: 50px;
+    font-weight: 400;
+}
+.sixth .item5{
+    color: black;
+    font-size: 15px;
     
+}
+.flex{
+    display: grid;
+    grid-template-columns: 10px 10px;
+    width: 400px;
+    height: 400px;
+    justify-content: space-between;
+    position: relative;
+    top: 20px;
+}
 
-  }
+.item1{
+    color: crimson;
+    width: 300px;
+    height: 200px;
+    font-size: 20px;
+    font-weight: 300;
+    margin-left: 100px;
+    position: relative;
+    top: -400px;
+   
+   
+    
+}
+.koko{
+    border: solid;
+    position: relative;
+    top: 20px;
+    height: 1000px;
+}
+.size h2{
+    font-size: 50px;
+    color: brown;
+    margin-left: 100px;
+}
+
+.grid{
+    display: grid;
+   width: 400px;
+   height: 500px;
+    border: solid;
+    position: relative;
+  margin-left: 1000px;
+  top: 50px;
+}
+.grid-item{
+    
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 30px;
+   background-color: bisque;
+    padding: 30px;
+  
+}
+img{
+    position: relative;
+    top: -400px;
+    height: 400px;
+    width: 400px;
+}
+.writing{
+    position: relative;
+    top: -200px;
+    left: 500px;
+    font-size: 20px;
+    font-weight: 900;
+    color: brown;
+}
