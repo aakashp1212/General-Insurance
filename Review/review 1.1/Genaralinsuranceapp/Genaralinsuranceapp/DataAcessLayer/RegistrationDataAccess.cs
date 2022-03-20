@@ -33,7 +33,7 @@ namespace Genaralinsuranceapp.DataAcessLayer
         {
             try
             {
-                return db.CustomerRegistration?.ToList().OrderBy(x => x.PolicyNumber);
+                return db.CustomerRegistration?.ToList().OrderBy(x => x.Address);
             }
             catch
             {

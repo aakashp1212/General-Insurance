@@ -9,22 +9,12 @@ namespace Genaralinsuranceapp.Repository
 {
     public partial class CustomerRegistration
     {
-        public CustomerRegistration()
-        {
-            Policydetails = new HashSet<Policydetails>();
-            Vehiclesdetails = new HashSet<Vehiclesdetails>();
-        }
-
-        public string FirstName { get; set; }
+        public int UserId { get; set; }
+        public string Name { get; set; }
+        public string Email { get; set; }
+        public DateTime Dob { get; set; }
+        public long? ContactNo { get; set; }
         public string Address { get; set; }
         public string Password { get; set; }
-        public DateTime? Dob { get; set; }
-        public string ContactNo { get; set; }
-        public int? PolicyNumber { get; set; }
-        public long CustomerId { get; set; }
-        public string Email { get; set; }
-
-        public virtual ICollection<Policydetails> Policydetails { get; set; }
-        public virtual ICollection<Vehiclesdetails> Vehiclesdetails { get; set; }
     }
 }
