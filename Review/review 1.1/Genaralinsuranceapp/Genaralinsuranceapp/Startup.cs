@@ -31,6 +31,8 @@ namespace Genaralinsuranceapp
             services.AddDbContext<generalinsuranceContext>(options => options.UseSqlServer(Configuration["ConnectionStrings:DefaultConnection"]));
             services.AddTransient<IRegistration,RegistrationDataAccess>();
             services.AddControllers();
+            services.AddControllersWithViews();
+            services.AddCors();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -44,6 +46,9 @@ namespace Genaralinsuranceapp
             app.UseRouting();
 
             app.UseAuthorization();
+            app.UseCors(policyBuilder=>policyBuilder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+            
+
 
             app.UseEndpoints(endpoints =>
             {

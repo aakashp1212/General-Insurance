@@ -6,7 +6,7 @@ using System.Collections.Generic;
 
 namespace Genaralinsuranceapp.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[Controller]")]
     [ApiController]
     public class RegistrationController : ControllerBase
     {
@@ -18,13 +18,14 @@ namespace Genaralinsuranceapp.Controllers
 
         }
         [HttpGet]
-        public IEnumerable<CustomerRegistration> Get()
+        public IActionResult Get()
         {
-            return objcustomer.GetALLCustomer();
+            var res = objcustomer.GetALLCustomer();
+            return Ok(res);
         }
 
         [HttpPost]
-        public int Post([FromBody] CustomerRegistration customer)
+        public int Post( CustomerRegistration customer)
         {
             return objcustomer.AddCustomer(customer);
         }
