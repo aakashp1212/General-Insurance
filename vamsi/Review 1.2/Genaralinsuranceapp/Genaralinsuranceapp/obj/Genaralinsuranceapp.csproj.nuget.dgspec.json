@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\testing\\Review 1.2\\Genaralinsuranceapp\\Genaralinsuranceapp\\Genaralinsuranceapp.csproj": {}
+    "D:\\projects repo\\repo\\vamsi\\Review 1.2\\Genaralinsuranceapp\\Genaralinsuranceapp\\Genaralinsuranceapp.csproj": {}
   },
   "projects": {
-    "D:\\testing\\Review 1.2\\Genaralinsuranceapp\\Genaralinsuranceapp\\Genaralinsuranceapp.csproj": {
+    "D:\\projects repo\\repo\\vamsi\\Review 1.2\\Genaralinsuranceapp\\Genaralinsuranceapp\\Genaralinsuranceapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\testing\\Review 1.2\\Genaralinsuranceapp\\Genaralinsuranceapp\\Genaralinsuranceapp.csproj",
+        "projectUniqueName": "D:\\projects repo\\repo\\vamsi\\Review 1.2\\Genaralinsuranceapp\\Genaralinsuranceapp\\Genaralinsuranceapp.csproj",
         "projectName": "Genaralinsuranceapp",
-        "projectPath": "D:\\testing\\Review 1.2\\Genaralinsuranceapp\\Genaralinsuranceapp\\Genaralinsuranceapp.csproj",
+        "projectPath": "D:\\projects repo\\repo\\vamsi\\Review 1.2\\Genaralinsuranceapp\\Genaralinsuranceapp\\Genaralinsuranceapp.csproj",
         "packagesPath": "C:\\Users\\vamsi\\.nuget\\packages\\",
-        "outputPath": "D:\\testing\\Review 1.2\\Genaralinsuranceapp\\Genaralinsuranceapp\\obj\\",
+        "outputPath": "D:\\projects repo\\repo\\vamsi\\Review 1.2\\Genaralinsuranceapp\\Genaralinsuranceapp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vamsi\\AppData\\Roaming\\NuGet\\NuGet.Config",
