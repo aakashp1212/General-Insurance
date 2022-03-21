@@ -1,0 +1,16 @@
+.type{
+    border: solid;
+    width: 800px;
+    height: 400px;
+    border-radius: 20px;
+}
+.h1{
+    width: max-width;
+    height: 70px;
+    background-color: rgb(44, 44, 160);
+    text-align: center;
+    color: white;
+   border-radius: 20px;
+position: relative;
+top: 20px;
+}
