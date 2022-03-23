@@ -1,11 +1,20 @@
 
 export interface Customer
 {
-    Name:string;
-    username: string;
+    firstName:string;
+
+ 
+
     Address:string;
+
+    contactNo:string;
+
     password: string;
+
     retypepassword:string;
-    phnnumber:string;
+
+    email:string;
+
+ 
        
 }

@@ -112,6 +112,9 @@ color: rgb(58, 56, 56);}
     position: relative;
     top: 20px;
     height: 1000px;
+    background-image: url(https://media.istockphoto.com/photos/insurance-protecting-family-health-live-house-and-car-concept-picture-id1202095009?k=20&m=1202095009&s=612x612&w=0&h=_L2uP2jj3tzX5LW66m9IkDxu8zwOj2Jp17ZHIQ8fiRk=);
+    background-repeat: no-repeat;
+    background-size: auto 1000px;
 }
 .size h2{
     font-size: 50px;

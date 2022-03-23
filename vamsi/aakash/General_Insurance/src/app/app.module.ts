@@ -15,14 +15,17 @@ import { ClaimComponent } from './claim/claim.component';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { RenewComponent } from './renew/renew.component';
 import { CalculateInsuranceComponent } from './calculate-insurance/calculate-insurance.component';
-import { HttpClientModule} from '@angular/common/http';
+
 import { ContactComponent } from './contact/contact.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { HelpComponent } from './help/help.component';
 import { FaqComponent } from './faq/faq.component';
 import { CalcfourComponent } from './calcfour/calcfour.component';
 import { CalctwoComponent } from './calctwo/calctwo.component'
-
+import { HttpClientModule } from '@angular/common/http';
+import { CustomerregistrationService } from './customerregistration.service';
+import { VehicleregistrationService } from './vehicleregistration.service';
+import { CalcfourinsuranceService } from './calcfourinsurance.service';
 
 @NgModule({
   declarations: [
@@ -51,7 +54,7 @@ import { CalctwoComponent } from './calctwo/calctwo.component'
     NgbModule,FormsModule,ReactiveFormsModule,HttpClientModule
   ],
   exports:[ClaimComponent],
-  providers: [],
+  providers: [CustomerregistrationService, VehicleregistrationService,CalcfourinsuranceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

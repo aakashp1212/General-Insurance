@@ -23,9 +23,9 @@ top: 20px;
     width: 600px;
     border-style: solid;
     position: relative;
-    top: 10px;
+    top: 60px;
     margin-left: 450px;
-    height: 300px;
+    height: 350px;
 
 }
 .header h1{
@@ -38,7 +38,17 @@ top: 20px;
 .btn{
     background-color: rgb(44, 44, 160);
     width: 100px;
-    height: 30px;
+    height: 50px;
     font-size: 20px;
     color: white;
+}
+.head2 h1 {
+    width: max-width;
+    height: 70px;
+    background-color: rgb(44, 44, 160);
+    text-align: center;
+    color: white;
+   border-radius: 20px;
+   position: relative;
+   top: 100px;
 }

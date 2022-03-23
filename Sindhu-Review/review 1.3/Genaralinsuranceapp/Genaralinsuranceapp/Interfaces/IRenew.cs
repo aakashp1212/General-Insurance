@@ -10,6 +10,5 @@ namespace Genaralinsuranceapp.Interfaces
 
         List<Insuranceduration> GetDuration();
 
-        int 
-    }
+    }   
 }

@@ -1,38 +1,38 @@
 
-
-<form [formGroup]="registrationform" (ngSubmit)="submitData()">
-   
-   <div class="head"> 
-       <h1>Enter Your Details!</h1>
-   </div>
+ 
+<form [formGroup]="registrationform" #formdata= "ngForm" (ngSubmit)="submitData(formdata.value)">
+    <div class="head"> 
+        <h1>Enter Your Details!</h1>
+    </div>
+  
    <div class="box1">  
     <div class="header">
         <h1>Please Register Here </h1>    
       </div>
 
-    <div class="form-group">
-        <label for="Name">please enter your FullName:&nbsp;</label>
-        <input type="text" class="form-control" name="Name" id="Name" formControlName="Name">
+    <div class="form-group" >
+        <label for="firstName">please enter your FullName:&nbsp;</label>
+        <input type="text" class="form-control" name="firstName" id="firstName"  formControlName="firstName">
     </div>
 
-    <div [hidden]="registrationform.controls['Name'].valid || registrationform.controls['Name'].pristine"
+    <div [hidden]="registrationform.controls['firstName'].valid || registrationform.controls['firstName'].pristine"
         class="alert alert-danger">
-        <div *ngIf="registrationform.controls['Name'].errors?.['required']">
+        <div *ngIf="registrationform.controls['firstName'].errors?.['required']">
              please enter your fullname 
         </div>
         </div>
     
     <div class="form-group">
-        <label for="username">Please enter your Email:&nbsp;</label>
-        <input type="email" class="form-control" name="username" id="username" formControlName="username">
+        <label for="email">Please enter your Email:&nbsp;</label>
+        <input type="email" class="form-control" name="email" id="email" formControlName="email">
     </div>
 
-    <div [hidden]="registrationform.controls['username'].valid || registrationform.controls['username'].pristine"
+    <div [hidden]="registrationform.controls['email'].valid || registrationform.controls['email'].pristine"
         class="alert alert-danger">
-        <div *ngIf="registrationform.controls['username'].errors?.['required']">
+        <div *ngIf="registrationform.controls['email'].errors?.['required']">
             please enter your email
         </div>
-        <div *ngIf="registrationform.controls['username'].errors?.['email']">
+        <div *ngIf="registrationform.controls['email'].errors?.['email']">
             please ensure that the text you entered must be an email id
         </div>
     </div>
@@ -40,13 +40,13 @@
     
 
     <div class="form-group">
-        <label for="phnnumber">Enter your Contact number:&nbsp;</label>
-        <input type="text" class="form-control" name="phnnumber" id="phnnumber" formControlName="phnnumber">
+        <label for="contactNo">Enter your Contact number:&nbsp;</label>
+        <input type="text" class="form-control" name="contactNor" id="contactNo" formControlName="contactNo">
     </div>
 
-    <div [hidden]="registrationform.controls['phnnumber'].valid || registrationform.controls['phnnumber'].pristine"
+    <div [hidden]="registrationform.controls['contactNo'].valid || registrationform.controls['contactNo'].pristine"
         class="alert alert-danger">
-        <div *ngIf="registrationform.controls['phnnumber'].errors?.['required']">
+        <div *ngIf="registrationform.controls['contactNo'].errors?.['required']">
            kindly provide contact number 
         </div>
     </div> 
@@ -121,7 +121,7 @@
        
     </div>
     <div id="submitDiv">
-        <button type="submit" class="btn btn-success"  [disabled]="!registrationform.valid">Submit</button>
+        <button   type="submit"  class="btn btn-success"  [disabled]="!registrationform.valid">Submit</button>
     </div>
 </div>
 

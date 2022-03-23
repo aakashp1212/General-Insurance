@@ -1,4 +1,4 @@
-
+<form #agecalc="ngForm" (ngSubmit)="calculate(agecalc.value)">
 <div class="h1">
     <h1>
         Premium Calculation For 4 Wheelers
@@ -6,11 +6,38 @@
 </div>
 
 <div class="box">
-    <input type="text" placeholder="Car Model">
+    <input type="text" placeholder="Car Model" required #car="ngModel"  ngModel>
+<br>
+<br>
+    <input type="text"placeholder="Age" required="" #age="ngModel" ngModel>
+<br>
+<br>
+<div class="txt">
 
-    <input type="text"placeholder="Age">
-
-    <button>
-        Calculate Premium
-    </button>
+    <label>Previously claim insurance</label>
+    <input type="radio" style="border-radius: 10px;" required #claim="ngModel" ngModel>
 </div>
+
+
+
+    <button >
+        Calculate Premium 
+    </button>
+
+    <br>
+    <br>
+    
+    <p>{{amount}}</p>
+    
+   
+   
+</div>
+
+</form>
+
+
+
+<div class="head2">
+    <h1> </h1>
+</div>
+<router-outlet></router-outlet>

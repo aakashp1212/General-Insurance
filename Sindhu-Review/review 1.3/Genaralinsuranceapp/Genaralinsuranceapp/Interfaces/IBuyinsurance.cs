@@ -19,6 +19,8 @@ namespace Genaralinsuranceapp.Interfaces
 
         List<Insuranceduration> GetDuration();
 
+        List<Vehiclesdetails> GetAllVehicles();
+
     }
 
    

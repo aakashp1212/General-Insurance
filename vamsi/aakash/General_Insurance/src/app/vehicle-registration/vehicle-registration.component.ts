@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup,Validators,FormBuilder } from '@angular/forms';
+import { VehicleregistrationService } from '../vehicleregistration.service';
 
 
 @Component({
@@ -10,33 +11,33 @@ import { FormGroup,Validators,FormBuilder } from '@angular/forms';
 export class VehicleRegistrationComponent implements OnInit {
 
   private _vehicleregistration: FormGroup = this._fb.group({
-    Manufacturer: ['',
+    manufacturer: ['',
         [Validators.required]
     ],
-    Purchasedate: ['',
-    [Validators.required]
-],
-    Model: [
+//     purchaseDate: ['',
+//     [Validators.required]
+// ],
+    model: [
         '',
         [Validators.required]
     ],
    
-    DrivingLicenseNumber :['',[Validators.required]],
-    RegistrationNumber: [
+    drivingLicenseNumber :['',[Validators.required]],
+registrationNumber: [
         '',
         [
             Validators.required
             
         ]
     ],
-    EngineNumber: [
+    engineNumber: [
         '',
         [
             Validators.required
             
         ]
     ],
-    ChasisNumber: [
+    chasisNumber: [
       '',
       [
           Validators.required
@@ -58,7 +59,8 @@ public set vehicleregistration(value: FormGroup) {
     this._vehicleregistration = value;
 }
 
-  constructor(private _fb: FormBuilder) { }
+public register: any;
+  constructor(private _fb: FormBuilder, private registervehicle : VehicleregistrationService) { }
 
   ngOnInit(): void {
    
@@ -66,12 +68,25 @@ public set vehicleregistration(value: FormGroup) {
 
   }
 
-  submitData() {
-    console.log(this.vehicleregistration)
-  }
+  public savedata(): void {
+
+    this.registervehicle.addvehicledetails(this._vehicleregistration.value).subscribe((res) => {
+
+        alert(`data added successfully=${res}`);
+
+
+
+    });
+
+
+
+}
+
+  submitData(data : any) {
+    this.registervehicle.addvehicledetails(data).subscribe((turn) => { console.log(turn) });
 }
 
 
 
   
-
+}

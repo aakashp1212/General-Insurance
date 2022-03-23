@@ -1,6 +1,7 @@
 ﻿using Genaralinsuranceapp.BusinessLayer;
 using Genaralinsuranceapp.Interfaces;
 using Genaralinsuranceapp.Repository;
+using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -33,6 +34,14 @@ namespace Genaralinsuranceapp.DataAcessLayer
         public Vehiclesdetails GetInsuranceById(int id)
         {
             return db.Vehiclesdetails.Where(p => p.PolicyNumber == id).First<Vehiclesdetails>();
+        }
+
+        public List<Vehiclesdetails> GetAllVehicles()
+        {
+            return db.Vehiclesdetails.ToList<Vehiclesdetails>();
+
+
+
         }
 
         public List<Insuranceplantype> GetPlans()

@@ -17,6 +17,7 @@ namespace Genaralinsuranceapp.Controllers
         }
 
         [HttpPost]
+        [Route("addvehicledetails")]
         public IActionResult AddInsurance(Vehiclesdetails vehiclesdetails)
         {
             var result = objbuyinsurance.AddInsurance(vehiclesdetails);
@@ -24,14 +25,23 @@ namespace Genaralinsuranceapp.Controllers
         }
 
         [HttpGet]
+        [Route("allvehicledetails")]
+        public IActionResult GetAllVehicles()
+        {
+            var res = objbuyinsurance.GetAllVehicles();
+            return this.Ok(res);
+        }
+        [HttpGet]
+        [Route("getplans")]
         public IActionResult GetPlans()
         { 
             var plan = objbuyinsurance.GetPlans();
             return this.Ok(plan); ;
         
         }
-
+       
         [HttpGet]
+        [Route("getduration")]
         public IActionResult GetDuration()
         {
             var year = objbuyinsurance.GetDuration();

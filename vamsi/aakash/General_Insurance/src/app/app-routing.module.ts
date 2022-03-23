@@ -12,8 +12,7 @@ import { CalculateInsuranceComponent } from './calculate-insurance/calculate-ins
 import { RenewComponent } from './renew/renew.component';
 import { CalcfourComponent } from './calcfour/calcfour.component';
 import { CalctwoComponent } from './calctwo/calctwo.component';
-
-
+import { VehicleRegistrationComponent } from './vehicle-registration/vehicle-registration.component';
 
 
 const routes: Routes = [
@@ -27,13 +26,15 @@ const routes: Routes = [
    
    { path: 'claiminsurance', component: ClaimComponent },
   
-   { path: ' renewinsurance', component: RenewComponent },
+   { path: 'renewinsurance', component: RenewComponent },
    {path:'customer-registration', component:CustomerRegistrationComponent},
 
-   { path: 'estimate-insurance', component: CalculateInsuranceComponent , children:[   { path: 'calcfour', component: CalcfourComponent}] },
+   { path: 'estimate-insurance', component: CalculateInsuranceComponent} , 
 
-  
-   { path: 'calctwo', component: CalctwoComponent },
+    { path: 'calcfour', component: CalcfourComponent} ,
+
+    { path: 'calctwo', component: CalctwoComponent} ,
+   {path: 'vehicleregistration', component: VehicleRegistrationComponent},
   
    { path: '', component: HomeComponent,pathMatch:"full" }
 ];

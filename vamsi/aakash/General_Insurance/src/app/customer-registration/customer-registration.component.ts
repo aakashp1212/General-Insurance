@@ -4,6 +4,9 @@ import { ConfirmedValidator } from 'src/app/validators/confirm-password-validato
 import { passwordValidator} from 'src/app/validators/password-validators';
 import { HttpClient } from "@angular/common/http";
 import { Observable } from 'rxjs';
+import { CustomerregistrationService } from '../customerregistration.service';
+import { ThisReceiver } from '@angular/compiler';
+import { Router } from '@angular/router';
 
 
 @Component({
@@ -13,15 +16,17 @@ import { Observable } from 'rxjs';
  
 })
 export class  CustomerRegistrationComponent implements OnInit {
+
     
+ 
   
 
     
     private _registrationform: FormGroup = this._fb.group({
-        Name: ['',
+        firstName: ['',
             [Validators.required]
         ],
-        username: [
+        email: [
             '',
             [Validators.required, Validators.email]
         ],
@@ -41,7 +46,7 @@ export class  CustomerRegistrationComponent implements OnInit {
                 
             ]
         ],
-        phnnumber: [
+        contactNo: [
           '',
           [
               Validators.required
@@ -67,21 +72,68 @@ export class  CustomerRegistrationComponent implements OnInit {
         this._registrationform = value;
     }
     
-      constructor(private _fb: FormBuilder) { }
-    
-      ngOnInit(): void {
+    public registerdata: any;
+
+ 
+    constructor(private _fb: FormBuilder, private registerService: CustomerregistrationService, private _router: Router) { }
+
+
+
+    ngOnInit(): void {
+
+     this.getAllCustomer();
+      
+
+
+    }
+
+    public savedata(): void {
+
+        this.registerService.addCustomer(this._registrationform.value).subscribe(result => {
+
+            alert(`data added successfully=${result}`);
+
+
+
+        });
+
+
+
+    }
+    private getAllCustomer(): void {
+
+        this.registerService.getAllCustomer().subscribe(data => { this.registerdata = data });
+
+
+
+    }
+
+
+
+      submitData(data: any) {
        
 
+        
 
-      }
+            this.registerService.addCustomer(data).subscribe(
+              
+                {
+                    next: (data: {result:number}) => alert(`${data.result} record added`),
+                    error: (err) => console.log(err),
+                    complete: () => {
+                        this._router.navigate(['/vehicleregistration'])
+                    }
+            
+            }
+                
+            );
     
-      submitData() {
-        console.log(this.registrationform)
+        
       }
       
        
 
-    }
+}
   
     
     

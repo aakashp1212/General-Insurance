@@ -29,7 +29,7 @@ namespace Genaralinsuranceapp.Controllers
         public IActionResult AddCustomer(CustomerRegistration customerRegistration)
         {
            var result = objcustomer.AddCustomer(customerRegistration);
-            return this.CreatedAtAction("AddCustomer" , $"{result} record added ");
+            return this.CreatedAtAction("AddCustomer" , new { Result = result });
         }
 
         [HttpGet("{id}")]
