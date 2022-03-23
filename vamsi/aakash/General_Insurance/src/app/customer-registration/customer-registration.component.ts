@@ -26,6 +26,8 @@ export class  CustomerRegistrationComponent implements OnInit {
         firstName: ['',
             [Validators.required]
         ],
+        userId:['',
+    [Validators.required]],
         email: [
             '',
             [Validators.required, Validators.email]

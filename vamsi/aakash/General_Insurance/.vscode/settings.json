@@ -1,7 +1,13 @@
 {
     "cSpell.words": [
         "chasis",
+        "currentlength",
         "customerregistration",
+        "expectedlength",
+        "maxlengtherror",
+        "minlengtherror",
+        "retypepassword",
+        "splchar",
         "vehicleregistration"
     ]
 }

@@ -125,3 +125,4 @@ E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsu
 E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.RazorTargetAssemblyInfo.cache
 E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.csproj.CopyComplete
 E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.genruntimeconfig.cache
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.csproj.AssemblyReference.cache
