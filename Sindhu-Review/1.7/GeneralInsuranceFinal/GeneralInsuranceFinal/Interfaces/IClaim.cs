@@ -4,11 +4,11 @@
     {
        
         
-            CustomerRegistration GetPolicyByEmail(string email);
+            //CustomerRegistration GetPolicyByEmail(string email);
 
-            List<Claimreasons> Getclaimreasons();
+            //List<Claimreasons> Getclaimreasons();
 
-            int AddClaimdetails(Claimdata claimdata);
+            //int AddClaimdetails(Claimdata claimdata);
 
 
 

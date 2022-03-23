@@ -116,17 +116,17 @@ export class  CustomerRegistrationComponent implements OnInit {
         
 
             this.registerService.addCustomer(data).subscribe(
+               
               
-                {
+               {
                     next: (data: {result:number}) => alert(`${data.result} record added`),
                     error: (err) => console.log(err),
-                    complete: () => {
+                complete: () => {
                         this._router.navigate(['/vehicleregistration'])
-                    }
+                   }
             
-            }
-                
-            );
+           
+                });
     
         
       }

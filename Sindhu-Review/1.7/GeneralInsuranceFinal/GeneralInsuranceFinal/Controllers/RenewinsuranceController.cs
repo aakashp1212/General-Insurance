@@ -8,49 +8,49 @@ namespace GeneralInsuranceFinal.Controllers
     public class RenewinsuranceController : ControllerBase
     {
 
-        [Route("api/[controller]")]
-        [ApiController]
-        public class RenewController : ControllerBase
-        {
-            private readonly IRenew objrenew;
+        //[Route("api/[controller]")]
+        //[ApiController]
+        //public class RenewController : ControllerBase
+        //{
+        //    private readonly IRenew objrenew;
 
-            public RenewController(IRenew _objrenew)
-            {
-                objrenew = _objrenew;
+        //    public RenewController(IRenew _objrenew)
+        //    {
+        //        objrenew = _objrenew;
 
-            }
+        //    }
 
-            //[HttpPut]
-            //public IActionResult Updatepolicy(int id,[FromBody] Policydetails policydetails)
-            //{
-            //    var result = objrenew.Updatepolicy(id, policydetails);
-            //    return this.CreatedAtAction("Updatepolicy(", $"{result} record added ");
-            //}
+        //    //[HttpPut]
+        //    //public IActionResult Updatepolicy(int id,[FromBody] Policydetails policydetails)
+        //    //{
+        //    //    var result = objrenew.Updatepolicy(id, policydetails);
+        //    //    return this.CreatedAtAction("Updatepolicy(", $"{result} record added ");
+        //    //}
 
-            [HttpPut]
-            [Route("update")]
-            public IActionResult Updatepolicy(Policydetails policydetails)
-            {
-                var result = objrenew.Updatepolicy(policydetails);
-                return this.CreatedAtAction("Updatepolicy(", $"{result} record added ");
-            }
-
-
-            [HttpGet("{email}")]
-            public IActionResult GetPolicyByEmail(string email)
-            {
-                var fetchdata = objrenew.GetPolicyByEmail(email);
-                return this.Ok(fetchdata);
-            }
+        //    [HttpPut]
+        //    [Route("update")]
+        //    public IActionResult Updatepolicy(Policydetails policydetails)
+        //    {
+        //        var result = objrenew.Updatepolicy(policydetails);
+        //        return this.CreatedAtAction("Updatepolicy(", $"{result} record added ");
+        //    }
 
 
-            [HttpGet]
+        //    [HttpGet("{email}")]
+        //    public IActionResult GetPolicyByEmail(string email)
+        //    {
+        //        var fetchdata = objrenew.GetPolicyByEmail(email);
+        //        return this.Ok(fetchdata);
+        //    }
 
-            public IActionResult GetAllPolicies()
-            {
-                var fetchData = objrenew.GetAllPolicies();
-                return this.Ok(fetchData);
-            }
-        }
+
+        //    [HttpGet]
+
+        //    public IActionResult GetAllPolicies()
+        //    {
+        //        var fetchData = objrenew.GetAllPolicies();
+        //        return this.Ok(fetchData);
+        //    }
+        //}
     }
 }
