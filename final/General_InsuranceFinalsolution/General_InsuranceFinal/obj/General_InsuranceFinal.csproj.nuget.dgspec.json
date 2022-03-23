@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\projects repo\\repo\\newbackend\\GeneralInsuranceFinal\\GeneralInsuranceFinal\\GeneralInsuranceFinal.csproj": {}
+    "D:\\projects repo\\repo\\final\\General_InsuranceFinalsolution\\General_InsuranceFinal\\General_InsuranceFinal.csproj": {}
   },
   "projects": {
-    "D:\\projects repo\\repo\\newbackend\\GeneralInsuranceFinal\\GeneralInsuranceFinal\\GeneralInsuranceFinal.csproj": {
+    "D:\\projects repo\\repo\\final\\General_InsuranceFinalsolution\\General_InsuranceFinal\\General_InsuranceFinal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projects repo\\repo\\newbackend\\GeneralInsuranceFinal\\GeneralInsuranceFinal\\GeneralInsuranceFinal.csproj",
-        "projectName": "GeneralInsuranceFinal",
-        "projectPath": "D:\\projects repo\\repo\\newbackend\\GeneralInsuranceFinal\\GeneralInsuranceFinal\\GeneralInsuranceFinal.csproj",
+        "projectUniqueName": "D:\\projects repo\\repo\\final\\General_InsuranceFinalsolution\\General_InsuranceFinal\\General_InsuranceFinal.csproj",
+        "projectName": "General_InsuranceFinal",
+        "projectPath": "D:\\projects repo\\repo\\final\\General_InsuranceFinalsolution\\General_InsuranceFinal\\General_InsuranceFinal.csproj",
         "packagesPath": "C:\\Users\\vamsi\\.nuget\\packages\\",
-        "outputPath": "D:\\projects repo\\repo\\newbackend\\GeneralInsuranceFinal\\GeneralInsuranceFinal\\obj\\",
+        "outputPath": "D:\\projects repo\\repo\\final\\General_InsuranceFinalsolution\\General_InsuranceFinal\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vamsi\\AppData\\Roaming\\NuGet\\NuGet.Config",
