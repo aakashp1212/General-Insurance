@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yfnOOiiglaw6AAJiVldvIVjhNtNxBjE/aFTMU4mdq0AKFTA+JsoltqpXKfOVMYMTPPsyst5l18BWNuBe8u7NkQ==",
+  "dgSpecHash": "e9lSDnIP9Es8TGUXOAjHaO6+PChikx5vIa4ZrY+4SXuq3/zwLBku7TL1P+X9/yMfxv5sgDrxsAHvLi6dIbeOYA==",
   "success": true,
-  "projectFilePath": "D:\\git\\General-Insurance\\Sindhu-Review\\review 1.6\\Genaralinsuranceapp\\Genaralinsuranceapp\\Genaralinsuranceapp.csproj",
+  "projectFilePath": "C:\\Users\\sindh\\lti\\asp.net\\GeneralInsuranceFinal\\GeneralInsuranceFinal\\GeneralInsuranceFinal.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sindh\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\sindh\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",

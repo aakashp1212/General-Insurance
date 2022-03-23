@@ -5727,11 +5727,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\git\\General-Insurance\\Sindhu-Review\\review 1.6\\Genaralinsuranceapp\\Genaralinsuranceapp\\Genaralinsuranceapp.csproj",
-      "projectName": "Genaralinsuranceapp",
-      "projectPath": "D:\\git\\General-Insurance\\Sindhu-Review\\review 1.6\\Genaralinsuranceapp\\Genaralinsuranceapp\\Genaralinsuranceapp.csproj",
+      "projectUniqueName": "C:\\Users\\sindh\\lti\\asp.net\\GeneralInsuranceFinal\\GeneralInsuranceFinal\\GeneralInsuranceFinal.csproj",
+      "projectName": "GeneralInsuranceFinal",
+      "projectPath": "C:\\Users\\sindh\\lti\\asp.net\\GeneralInsuranceFinal\\GeneralInsuranceFinal\\GeneralInsuranceFinal.csproj",
       "packagesPath": "C:\\Users\\sindh\\.nuget\\packages\\",
-      "outputPath": "D:\\git\\General-Insurance\\Sindhu-Review\\review 1.6\\Genaralinsuranceapp\\Genaralinsuranceapp\\obj\\",
+      "outputPath": "C:\\Users\\sindh\\lti\\asp.net\\GeneralInsuranceFinal\\GeneralInsuranceFinal\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
