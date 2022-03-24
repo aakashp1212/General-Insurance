@@ -5721,24 +5721,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sindh\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\aakas\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sindh\\lti\\asp.net\\GeneralInsuranceFinal\\GeneralInsuranceFinal\\GeneralInsuranceFinal.csproj",
+      "projectUniqueName": "E:\\LTI - PROJECT\\git project\\Sindhu-Review\\1.8\\GeneralInsuranceFinal\\GeneralInsuranceFinal\\GeneralInsuranceFinal.csproj",
       "projectName": "GeneralInsuranceFinal",
-      "projectPath": "C:\\Users\\sindh\\lti\\asp.net\\GeneralInsuranceFinal\\GeneralInsuranceFinal\\GeneralInsuranceFinal.csproj",
-      "packagesPath": "C:\\Users\\sindh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sindh\\lti\\asp.net\\GeneralInsuranceFinal\\GeneralInsuranceFinal\\obj\\",
+      "projectPath": "E:\\LTI - PROJECT\\git project\\Sindhu-Review\\1.8\\GeneralInsuranceFinal\\GeneralInsuranceFinal\\GeneralInsuranceFinal.csproj",
+      "packagesPath": "C:\\Users\\aakas\\.nuget\\packages\\",
+      "outputPath": "E:\\LTI - PROJECT\\git project\\Sindhu-Review\\1.8\\GeneralInsuranceFinal\\GeneralInsuranceFinal\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\sindh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\aakas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5785,12 +5780,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[3.1.22, 3.1.22]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"

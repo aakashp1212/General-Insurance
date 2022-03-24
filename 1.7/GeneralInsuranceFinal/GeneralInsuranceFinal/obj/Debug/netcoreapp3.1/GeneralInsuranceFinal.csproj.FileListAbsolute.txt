@@ -1,0 +1,128 @@
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\appsettings.Development.json
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\appsettings.json
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\GeneralInsuranceFinal.exe
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\GeneralInsuranceFinal.deps.json
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\GeneralInsuranceFinal.runtimeconfig.json
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\GeneralInsuranceFinal.runtimeconfig.dev.json
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\GeneralInsuranceFinal.dll
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\GeneralInsuranceFinal.pdb
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.csproj.AssemblyReference.cache
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.GeneratedMSBuildEditorConfig.editorconfig
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.AssemblyInfoInputs.cache
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.AssemblyInfo.cs
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.csproj.CoreCompileInputs.cache
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.MvcApplicationPartsAssemblyInfo.cache
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\staticwebassets\GeneralInsuranceFinal.StaticWebAssets.Manifest.cache
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.RazorTargetAssemblyInfo.cache
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.csproj.CopyComplete
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.dll
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.pdb
+E:\LTI - PROJECT\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.genruntimeconfig.cache
+C:\Users\sindh\lti\asp.net\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.csproj.AssemblyReference.cache
+C:\Users\sindh\lti\asp.net\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sindh\lti\asp.net\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.AssemblyInfoInputs.cache
+C:\Users\sindh\lti\asp.net\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.AssemblyInfo.cs
+C:\Users\sindh\lti\asp.net\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.csproj.CoreCompileInputs.cache
+C:\Users\sindh\lti\asp.net\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\sindh\lti\asp.net\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.dll
+C:\Users\sindh\lti\asp.net\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.pdb
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.GeneratedMSBuildEditorConfig.editorconfig
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.AssemblyInfoInputs.cache
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.AssemblyInfo.cs
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.csproj.CoreCompileInputs.cache
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.MvcApplicationPartsAssemblyInfo.cache
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.dll
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.pdb
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\appsettings.Development.json
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\appsettings.json
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\GeneralInsuranceFinal.exe
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\GeneralInsuranceFinal.deps.json
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\GeneralInsuranceFinal.runtimeconfig.json
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\GeneralInsuranceFinal.runtimeconfig.dev.json
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\GeneralInsuranceFinal.dll
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\GeneralInsuranceFinal.pdb
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\staticwebassets\GeneralInsuranceFinal.StaticWebAssets.Manifest.cache
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.RazorTargetAssemblyInfo.cache
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.csproj.CopyComplete
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.genruntimeconfig.cache
+E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.csproj.AssemblyReference.cache

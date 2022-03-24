@@ -66,3 +66,11 @@ C:\Users\sindh\lti\asp.net\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug
 C:\Users\sindh\lti\asp.net\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\sindh\lti\asp.net\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.dll
 C:\Users\sindh\lti\asp.net\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.pdb
+E:\LTI - PROJECT\git project\Sindhu-Review\1.8\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.csproj.AssemblyReference.cache
+E:\LTI - PROJECT\git project\Sindhu-Review\1.8\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.GeneratedMSBuildEditorConfig.editorconfig
+E:\LTI - PROJECT\git project\Sindhu-Review\1.8\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.AssemblyInfoInputs.cache
+E:\LTI - PROJECT\git project\Sindhu-Review\1.8\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.AssemblyInfo.cs
+E:\LTI - PROJECT\git project\Sindhu-Review\1.8\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.csproj.CoreCompileInputs.cache
+E:\LTI - PROJECT\git project\Sindhu-Review\1.8\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.MvcApplicationPartsAssemblyInfo.cache
+E:\LTI - PROJECT\git project\Sindhu-Review\1.8\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.dll
+E:\LTI - PROJECT\git project\Sindhu-Review\1.8\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.pdb
