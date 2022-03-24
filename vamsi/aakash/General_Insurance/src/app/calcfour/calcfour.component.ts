@@ -21,10 +21,11 @@ message: string=" ";
   ngOnInit(): void {
    
   }
-  calculate (data: any) {
+  calculate (data: any) {console.log(data.value);
 
 if(data["age"]<5   ){
-  this.amount=10000-5000;
+  this.amount=5000;
+
 
 }    
 else{

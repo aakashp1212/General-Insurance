@@ -22,7 +22,7 @@ namespace GeneralInsuranceFinal.Interfaces
 
             List<Insuranceduration> GetDuration();
 
-        
+        List<Vehiclesdetails> GetAllVehicles();
 
     }
 }

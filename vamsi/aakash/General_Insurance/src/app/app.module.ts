@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
+import {  ROUTES,Router,RouterModule} from "@angular/router";
 import { HomeComponent } from './home/home.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { LoginComponent } from './login/login.component';
@@ -24,8 +24,10 @@ import { CalcfourComponent } from './calcfour/calcfour.component';
 import { CalctwoComponent } from './calctwo/calctwo.component'
 import { HttpClientModule } from '@angular/common/http';
 import { CustomerregistrationService } from './customerregistration.service';
-import { VehicleregistrationService } from './vehicleregistration.service';
+
 import { CalcfourinsuranceService } from './calcfourinsurance.service';
+import { VehicleregistrationService } from './vehicleregistration.service';
+import { plansservice } from './plan-table/plans.service';
 
 @NgModule({
   declarations: [
@@ -54,7 +56,7 @@ import { CalcfourinsuranceService } from './calcfourinsurance.service';
     NgbModule,FormsModule,ReactiveFormsModule,HttpClientModule
   ],
   exports:[ClaimComponent],
-  providers: [CustomerregistrationService, VehicleregistrationService,CalcfourinsuranceService],
+  providers: [CustomerregistrationService,VehicleregistrationService ,CalcfourinsuranceService,plansservice],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

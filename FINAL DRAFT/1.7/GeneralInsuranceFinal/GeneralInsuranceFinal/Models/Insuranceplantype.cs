@@ -9,14 +9,7 @@ namespace GeneralInsuranceFinal.Models
 {
     public partial class Insuranceplantype
     {
-        public Insuranceplantype()
-        {
-            Policydetails = new HashSet<Policydetails>();
-        }
-
         public string PlanName { get; set; }
         public int PlanId { get; set; }
-
-        public virtual ICollection<Policydetails> Policydetails { get; set; }
     }
 }

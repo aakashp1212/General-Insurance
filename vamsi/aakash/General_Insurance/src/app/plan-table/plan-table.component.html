@@ -1,5 +1,5 @@
 <div class="background">
-    <form >
+    <form #form="ngForm"  (ngsubmit)="selectedplan(form.value)" >
     <div class="padding"></div>
     <div>
     
@@ -8,7 +8,7 @@
     </div>
     <div class="plans">Choose your plan:</div>
     <div class="scroll-box">
-    <select fromcontrolname="Choose your plan" ngModel>
+    <select formcontrolname="Choose your plan" ngModel>
     <option value="Third Party Laibilty">Third Party Laibilty</option>
     <option value="Comprehensive">Comprehensive</option>
     </select>
@@ -18,7 +18,7 @@
     <div>
     <div class="plans">Choose year:</div>
     <div class="scroll-box">
-    <select fromcontrolname="Choose year" ngModel placeHolder="Select">
+    <select formcontrolname="Choose year" ngModel placeHolder="Select">
     <option value="One year">One year</option>
     <option value="Two year">Two years</option>
     <option value="Three year">Three years</option>

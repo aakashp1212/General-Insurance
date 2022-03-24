@@ -7,6 +7,7 @@ import { Observable } from 'rxjs';
 import { CustomerregistrationService } from '../customerregistration.service';
 import { ThisReceiver } from '@angular/compiler';
 import { Router } from '@angular/router';
+import { VehicleregistrationService } from '../vehicleregistration.service';
 
 
 @Component({
@@ -26,8 +27,7 @@ export class  CustomerRegistrationComponent implements OnInit {
         firstName: ['',
             [Validators.required]
         ],
-        userId:['',
-    [Validators.required]],
+     
         email: [
             '',
             [Validators.required, Validators.email]
@@ -77,7 +77,7 @@ export class  CustomerRegistrationComponent implements OnInit {
     public registerdata: any;
 
  
-    constructor(private _fb: FormBuilder, private registerService: CustomerregistrationService, private _router: Router) { }
+    constructor(private _fb: FormBuilder, private registerService: CustomerregistrationService, private _router: Router,private registerser : VehicleregistrationService) { }
 
 
 
@@ -121,10 +121,10 @@ export class  CustomerRegistrationComponent implements OnInit {
                
               
                {
-                    next: (data: {result:number}) => alert(`${data.result} record added`),
+                    next: (result: any) => alert(result),
                     error: (err) => console.log(err),
                 complete: () => {
-                        this._router.navigate(['/vehicleregistration'])
+                         this._router.navigateByUrl('http://localhost:37841/api/Buyinsurance/addvehicledetails')
                    }
             
            
