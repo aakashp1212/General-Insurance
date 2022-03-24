@@ -9,6 +9,8 @@ namespace GeneralInsuranceFinal.Models
 {
     public partial class CustomerRegistration
     {
+        internal object Password;
+
         public CustomerRegistration()
         {
             Policydetails = new HashSet<Policydetails>();

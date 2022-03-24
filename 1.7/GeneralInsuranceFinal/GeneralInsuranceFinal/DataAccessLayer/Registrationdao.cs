@@ -16,26 +16,61 @@ namespace GeneralInsuranceFinal.DataAccessLayer
                 db = _db;
             }
 
-            public int AddCustomer(CustomerRegistration customer)
-            {
-                db.CustomerRegistration.Add(customer);
-                return db.SaveChanges();
-            }
+        
+
+        
+
+        //public int AddCustomer(CustomerRegistration customer)
+        //{
+        //    db.Login.Add(new login { email = customer.Email, password = customer.Password });
+        //    int res = db.SaveChanges();
+        //    if (res > 0)
+        //    {
+        //        db.CustomerRegistration.Add(new Models.CustomerRegistration
+        //        {
+        //            FirstName = customer.FirstName,
+        //            Address = customer.Address,
+        //            ContactNo = customer.ContactNo,
+        //            Email = customer.Email
+        //        });
+
+        //        return db.SaveChanges();
+        //    }
+        //}
+        
 
 
 
-            public List<CustomerRegistration> GetALLCustomer()
+
+        public List<CustomerRegistration> GetALLCustomer()
             {
                 return db.CustomerRegistration.ToList<CustomerRegistration>();
 
             }
 
-            public CustomerRegistration GetCustomerById(long id)
+
+        public int AddCustomer(CustomerRegistration customer, Login login)
+        {
+
+            //CustomerRegistration customer = new CustomerRegistration();
+           // Login login = new Login();
+            db.Login.Add(new login { email = login.Email, password = login.Password });
+            int res = db.SaveChanges();
+            if (res > 0)
             {
-                return db.CustomerRegistration.Where(p => p.CustomerId == id).First<CustomerRegistration>();
+                db.CustomerRegistration.Add(new CustomerRegistration
+                {
+                    FirstName = customer.FirstName,
+                    Address = customer.Address,
+                    ContactNo = customer.ContactNo,
+                    Email = customer.Email
+                });
+                int result = db.SaveChanges();
+                return result;
+
             }
-
-
-        }
+                return res;
+            }   
+    }
     
 }

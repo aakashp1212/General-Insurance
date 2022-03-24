@@ -10,12 +10,14 @@ namespace GeneralInsuranceFinal.Interfaces
 
             List<CustomerRegistration> GetALLCustomer();
 
-            int AddCustomer(CustomerRegistration customer);
+            int AddCustomer(CustomerRegistration  customer , Login login);
 
-            CustomerRegistration GetCustomerById(long CustomerId);
+          
 
 
 
         
     }
+
+    
 }
