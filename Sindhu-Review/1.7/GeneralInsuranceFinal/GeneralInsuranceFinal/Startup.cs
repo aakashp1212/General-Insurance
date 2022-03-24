@@ -31,9 +31,15 @@ namespace GeneralInsuranceFinal
             services.AddDbContext<General_InsuranceDatabaseContext>(options => options.UseSqlServer(Configuration["ConnectionStrings:DefaultConnection"]));
             services.AddTransient<IRegistration, Registrationdao>();
             services.AddTransient<IBuyinsurance, Buyinsurancedao>();
-           // services.AddTransient<IRenew, Renewdao>();
-           // services.AddTransient<IClaim, Claiminsurancedao>();
+            // services.AddTransient<IRenew, Renewdao>();
+            // services.AddTransient<IClaim, Claiminsurancedao>();
+            services.AddCors(Options => {
+                Options.AddDefaultPolicy(builder =>
+                {
 
+                    builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
+                });
+            });
             services.AddControllers();
         }
 
@@ -46,7 +52,7 @@ namespace GeneralInsuranceFinal
             }
 
             app.UseRouting();
-
+            app.UseCors();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

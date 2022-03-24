@@ -3,11 +3,11 @@
     public interface IRenew
     {
 
-        List<CustomerRegistration> GetALLCustomer();
+        //List<CustomerRegistration> GetALLCustomer();
 
-        int AddCustomer(CustomerRegistration customer);
+        //int AddCustomer(CustomerRegistration customer);
 
-        CustomerRegistration GetCustomerById(long CustomerId);
+        //CustomerRegistration GetCustomerById(long CustomerId);
 
     }
 }
