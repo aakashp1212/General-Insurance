@@ -25,7 +25,9 @@ namespace GeneralInsuranceFinal.Controllers
                 return this.Ok(fetchData);
             }
 
-            [HttpPost]
+
+
+        [HttpPost]
             public IActionResult AddCustomer(CustomerRegistration customer)
             {
                 var result = objcustomer.AddCustomer(customer);

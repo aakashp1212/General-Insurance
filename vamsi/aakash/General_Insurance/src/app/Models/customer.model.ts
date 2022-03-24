@@ -3,9 +3,6 @@ export interface Customer
 {
     firstName:string;
 
- 
-userId:number;
-
     Address:string;
 
     contactNo:string;

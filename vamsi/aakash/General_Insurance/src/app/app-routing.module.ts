@@ -13,6 +13,7 @@ import { RenewComponent } from './renew/renew.component';
 import { CalcfourComponent } from './calcfour/calcfour.component';
 import { CalctwoComponent } from './calctwo/calctwo.component';
 import { VehicleRegistrationComponent } from './vehicle-registration/vehicle-registration.component';
+import { PlanTableComponent } from './plan-table/plan-table.component';
 
 
 const routes: Routes = [
@@ -35,6 +36,8 @@ const routes: Routes = [
 
     { path: 'calctwo', component: CalctwoComponent} ,
    {path: 'vehicleregistration', component: VehicleRegistrationComponent},
+
+   {path: 'plan-table', component: PlanTableComponent},
   
    { path: '', component: HomeComponent,pathMatch:"full" }
 ];

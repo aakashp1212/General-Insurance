@@ -1,13 +1,21 @@
-export interface Vehicles
-{
-    // twoWheeler: string;
-    // fourWheeler: string;
-    vehicleType: string;
-    manufacturer :string;
-    model : string;
-    drivingLicenseNumber : string;
-    registrationNumber : string;
-    engineNumber : string;
-    chasisNumber : string;
-    purchaseDate: Date;
-}
+
+
+    export interface Vehicles {
+
+        vehicleType: string;
+    
+        manufacturer: string;
+    
+        model: string;
+    
+        drivingLicenseNumber: string;
+    
+        registrationNumber: string;
+    
+        engineNumber: string;
+    
+        chassisNumber: string;
+    
+        customerId?: number;
+    
+    }

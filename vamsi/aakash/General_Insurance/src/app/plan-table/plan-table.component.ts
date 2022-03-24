@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { plansservice } from './plans.service';
 
 @Component({
   selector: 'app-plan-table',
@@ -7,9 +9,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PlanTableComponent implements OnInit {
 
-  constructor() { }
+  constructor(private ng :plansservice, private route: Router) { }
 
   ngOnInit(): void {
+
+
+  }
+
+  selectedplan(data:any){
+
+    this.ng.submitdata(data).subscribe(result => {console.log(result)}); 
+
   }
 
 }

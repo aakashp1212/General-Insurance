@@ -26,12 +26,16 @@ namespace GeneralInsuranceFinal.Controllers
             }
 
             [HttpGet]
+            [Route("plansget")]
             public IActionResult GetPlans()
             {
                 var plan = objbuyinsurance.GetPlans();
                 return this.Ok(plan); ;
 
             }
+
+
+
             [HttpPost]
             [Route("plan")]
             public IActionResult AddPolicy(Policydetails policydetails)
@@ -41,8 +45,15 @@ namespace GeneralInsuranceFinal.Controllers
             }
 
 
+        [HttpGet]
+        [Route("allvehicles")]
+        public IActionResult GetAllVehicles()
+        {
+            var fetchData = objbuyinsurance.GetAllVehicles();
+            return this.Ok(fetchData);
+        }
 
-            [HttpGet]
+        [HttpGet]
             [Route("all")]
             public IActionResult GetDuration()
             {
@@ -58,8 +69,17 @@ namespace GeneralInsuranceFinal.Controllers
                 return this.Ok(fetchdata);
             }
 
+        [HttpGet]
+        [Route("types")]
+        public IActionResult GetVehicletypes()
+        {
+            var type = objbuyinsurance.GetVehicletypes();
+            return this.Ok(type); ;
 
-        
+
+
+        }
+
 
     }
 }

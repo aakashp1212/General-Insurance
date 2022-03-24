@@ -9,16 +9,7 @@ namespace GeneralInsuranceFinal.Models
 {
     public partial class Vehicletypes
     {
-        public Vehicletypes()
-        {
-            Policydetails = new HashSet<Policydetails>();
-            Vehiclesdetails = new HashSet<Vehiclesdetails>();
-        }
-
         public string VehicleType { get; set; }
         public int VehicleTypeId { get; set; }
-
-        public virtual ICollection<Policydetails> Policydetails { get; set; }
-        public virtual ICollection<Vehiclesdetails> Vehiclesdetails { get; set; }
     }
 }

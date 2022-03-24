@@ -29,9 +29,13 @@ namespace GeneralInsuranceFinal.DataAccessLayer
                 return db.SaveChanges();
 
             }
+        public List<Vehiclesdetails> GetAllVehicles()
+        {
+            return db.Vehiclesdetails.ToList<Vehiclesdetails>();
 
+        }
 
-            public Vehiclesdetails GetInsuranceById(int id)
+        public Vehiclesdetails GetInsuranceById(int id)
             {
                 return db.Vehiclesdetails.Where(p => p.CustomerId == id).First<Vehiclesdetails>();
             }

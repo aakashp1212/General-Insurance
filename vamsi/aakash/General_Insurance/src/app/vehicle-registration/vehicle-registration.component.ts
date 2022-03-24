@@ -1,92 +1,112 @@
-import { Component, OnInit } from '@angular/core';
-import { FormGroup,Validators,FormBuilder } from '@angular/forms';
+import { Component, ComponentFactoryResolver, OnInit } from '@angular/core';
+import { FormGroup, Validators, FormBuilder } from '@angular/forms';
+import { VehicleTypes } from '../Models/vehicletypes';
+import { HttpErrorResponse } from "@angular/common/http";
+import { Vehicles } from '../Models/vehicle.model';
 import { VehicleregistrationService } from '../vehicleregistration.service';
+import { Router } from '@angular/router';
 
 
 @Component({
-  selector: 'app-vehicle-registration',
-  templateUrl: './vehicle-registration.component.html',
-  styleUrls: ['./vehicle-registration.component.css']
+    selector: 'app-vehicle-registration',
+    templateUrl: './vehicle-registration.component.html',
+    styleUrls: ['./vehicle-registration.component.css']
 })
 export class VehicleRegistrationComponent implements OnInit {
 
-  private _vehicleregistration: FormGroup = this._fb.group({
-    manufacturer: ['',
-        [Validators.required]
-    ],
-//     purchaseDate: ['',
-//     [Validators.required]
-// ],
-    model: [
-        '',
-        [Validators.required]
-    ],
-   
-    drivingLicenseNumber :['',[Validators.required]],
-registrationNumber: [
-        '',
-        [
-            Validators.required
-            
+    private _vehicleregistration: FormGroup = this._fb.group({
+        manufacturer: ['',
+            [Validators.required]
+        ],
+      
+        model: [
+            '',
+            [Validators.required]
+        ],
+
+        drivingLicenseNumber: ['', [Validators.required]],
+        registrationNumber: [
+            '',
+            [
+                Validators.required
+
+            ]
+        ],
+        engineNumber: [
+            '',
+            [
+               
+                Validators.required
+            ]
+        ],
+        chassisNumber: [
+            '',
+            [
+                Validators.required
+
+            ]
+
+        ],
+        vehicleType:[
+            ''
         ]
-    ],
-    engineNumber: [
-        '',
-        [
-            Validators.required
-            
-        ]
-    ],
-    chasisNumber: [
-      '',
-      [
-          Validators.required
-          
-      ]
-     
-    ]
 
+    }
+
+
+
+
+    );
+    public get vehicleregistration(): FormGroup {
+        return this._vehicleregistration;
+    }
+    public set vehicleregistration(value: FormGroup) {
+        this._vehicleregistration = value;
+    }
+
+    constructor(private _fb: FormBuilder, private vs: VehicleregistrationService, private _router: Router) { }
+
+public getallvehicles():void{
+
+    this.vs.addVehicleData(this._vehicleregistration.value).subscribe(result => {console.log(result);
+    })
 }
 
 
 
-
-);
-public get vehicleregistration(): FormGroup {
-    return this._vehicleregistration;
-}
-public set vehicleregistration(value: FormGroup) {
-    this._vehicleregistration = value;
-}
-
-public register: any;
-  constructor(private _fb: FormBuilder, private registervehicle : VehicleregistrationService) { }
 
   ngOnInit(): void {
+
    
+
+
 
 
   }
 
-  public savedata(): void {
-
-    this.registervehicle.addvehicledetails(this._vehicleregistration.value).subscribe((res) => {
-
-        alert(`data added successfully=${res}`);
 
 
+  submitData(data :any) {
 
-    });
-
-
-
-}
-
-  submitData(data : any) {
-    this.registervehicle.addvehicledetails(data).subscribe((turn) => { console.log(turn) });
-}
-
-
+    this.vs.addVehicleData(data).subscribe(
 
   
+        {
+            next: (result: any) => alert(result),
+       
+        complete: () => {
+            this._router.navigate(['/plan-table'])
+           }
+    
+   
+        })
+
+
+
+    ;
+
+    
+
+  }
+
 }

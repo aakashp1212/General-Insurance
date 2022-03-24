@@ -41,7 +41,7 @@
 
     <div class="form-group">
         <label for="contactNo">Enter your Contact number:&nbsp;</label>
-        <input type="text" class="form-control" name="contactNor" id="contactNo" formControlName="contactNo">
+        <input type="text" class="form-control" name="contactNo" id="contactNo" formControlName="contactNo">
     </div>
 
     <div [hidden]="registrationform.controls['contactNo'].valid || registrationform.controls['contactNo'].pristine"
@@ -52,17 +52,7 @@
     </div> 
 
     
-    <div class="form-group">
-        <label for="userId">Enter your Contact number:&nbsp;</label>
-        <input type="text" class="form-control" name="userId" id="userId" formControlName="userId">
-    </div>
-
-    <div [hidden]="registrationform.controls['userId'].valid || registrationform.controls['userId'].pristine"
-        class="alert alert-danger">
-        <div *ngIf="registrationform.controls['userId'].errors?.['required']">
-           kindly provide contact number 
-        </div>
-    </div>
+   
 
     <div class="form-group">
         <label for="Address">please enter your Address:&nbsp;</label>
@@ -134,7 +124,7 @@
        
     </div>
     <div id="submitDiv">
-        <button   type="submit"  class="btn btn-success"  [disabled]="!registrationform.valid">Submit</button>
+        <button   type="submit"  class="btn btn-success" routerLink="/vehicleregistration"  [disabled]="!registrationform.valid">Submit</button>
     </div>
 </div>
 
