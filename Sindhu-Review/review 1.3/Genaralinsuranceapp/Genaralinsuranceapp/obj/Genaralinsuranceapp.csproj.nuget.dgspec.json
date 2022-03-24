@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\LTI - PROJECT\\git project\\Sindhu-Review\\review 1.3\\Genaralinsuranceapp\\Genaralinsuranceapp\\Genaralinsuranceapp.csproj": {}
+    "D:\\git\\General-Insurance\\Sindhu-Review\\review 1.3\\Genaralinsuranceapp\\Genaralinsuranceapp\\Genaralinsuranceapp.csproj": {}
   },
   "projects": {
-    "E:\\LTI - PROJECT\\git project\\Sindhu-Review\\review 1.3\\Genaralinsuranceapp\\Genaralinsuranceapp\\Genaralinsuranceapp.csproj": {
+    "D:\\git\\General-Insurance\\Sindhu-Review\\review 1.3\\Genaralinsuranceapp\\Genaralinsuranceapp\\Genaralinsuranceapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\LTI - PROJECT\\git project\\Sindhu-Review\\review 1.3\\Genaralinsuranceapp\\Genaralinsuranceapp\\Genaralinsuranceapp.csproj",
+        "projectUniqueName": "D:\\git\\General-Insurance\\Sindhu-Review\\review 1.3\\Genaralinsuranceapp\\Genaralinsuranceapp\\Genaralinsuranceapp.csproj",
         "projectName": "Genaralinsuranceapp",
-        "projectPath": "E:\\LTI - PROJECT\\git project\\Sindhu-Review\\review 1.3\\Genaralinsuranceapp\\Genaralinsuranceapp\\Genaralinsuranceapp.csproj",
-        "packagesPath": "C:\\Users\\aakas\\.nuget\\packages\\",
-        "outputPath": "E:\\LTI - PROJECT\\git project\\Sindhu-Review\\review 1.3\\Genaralinsuranceapp\\Genaralinsuranceapp\\obj\\",
+        "projectPath": "D:\\git\\General-Insurance\\Sindhu-Review\\review 1.3\\Genaralinsuranceapp\\Genaralinsuranceapp\\Genaralinsuranceapp.csproj",
+        "packagesPath": "C:\\Users\\sindh\\.nuget\\packages\\",
+        "outputPath": "D:\\git\\General-Insurance\\Sindhu-Review\\review 1.3\\Genaralinsuranceapp\\Genaralinsuranceapp\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\aakas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sindh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,6 +65,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.22, 3.1.22]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"

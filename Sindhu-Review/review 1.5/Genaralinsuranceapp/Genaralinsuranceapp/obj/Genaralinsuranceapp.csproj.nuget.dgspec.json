@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sindh\\lti\\asp.net\\Genaralinsuranceapp\\Genaralinsuranceapp\\Genaralinsuranceapp.csproj": {}
+    "D:\\git\\General-Insurance\\Sindhu-Review\\review 1.5\\Genaralinsuranceapp\\Genaralinsuranceapp\\Genaralinsuranceapp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sindh\\lti\\asp.net\\Genaralinsuranceapp\\Genaralinsuranceapp\\Genaralinsuranceapp.csproj": {
+    "D:\\git\\General-Insurance\\Sindhu-Review\\review 1.5\\Genaralinsuranceapp\\Genaralinsuranceapp\\Genaralinsuranceapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sindh\\lti\\asp.net\\Genaralinsuranceapp\\Genaralinsuranceapp\\Genaralinsuranceapp.csproj",
+        "projectUniqueName": "D:\\git\\General-Insurance\\Sindhu-Review\\review 1.5\\Genaralinsuranceapp\\Genaralinsuranceapp\\Genaralinsuranceapp.csproj",
         "projectName": "Genaralinsuranceapp",
-        "projectPath": "C:\\Users\\sindh\\lti\\asp.net\\Genaralinsuranceapp\\Genaralinsuranceapp\\Genaralinsuranceapp.csproj",
+        "projectPath": "D:\\git\\General-Insurance\\Sindhu-Review\\review 1.5\\Genaralinsuranceapp\\Genaralinsuranceapp\\Genaralinsuranceapp.csproj",
         "packagesPath": "C:\\Users\\sindh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sindh\\lti\\asp.net\\Genaralinsuranceapp\\Genaralinsuranceapp\\obj\\",
+        "outputPath": "D:\\git\\General-Insurance\\Sindhu-Review\\review 1.5\\Genaralinsuranceapp\\Genaralinsuranceapp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
