@@ -126,3 +126,11 @@ E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsu
 E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.csproj.CopyComplete
 E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.genruntimeconfig.cache
 E:\LTI - PROJECT\git project\Sindhu-Review\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.csproj.AssemblyReference.cache
+D:\projects repo\repo\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.csproj.AssemblyReference.cache
+D:\projects repo\repo\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.GeneratedMSBuildEditorConfig.editorconfig
+D:\projects repo\repo\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.AssemblyInfoInputs.cache
+D:\projects repo\repo\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.AssemblyInfo.cs
+D:\projects repo\repo\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.csproj.CoreCompileInputs.cache
+D:\projects repo\repo\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.MvcApplicationPartsAssemblyInfo.cache
+D:\projects repo\repo\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.dll
+D:\projects repo\repo\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.pdb
