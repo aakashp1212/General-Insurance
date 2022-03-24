@@ -32,7 +32,7 @@ address varchar(max),
 password varchar(50),
 
 contactNo varchar(10),
-userId int unique,
+em
 customerId int primary key identity(1,1) not null,
 email varchar(50)
 );
@@ -43,10 +43,9 @@ select *  from Customer_Registration
 -------------------------------------------------------------------
 ------------------------------------------Login table--------------------------------
 create table login(
-userId int ,
+email varchar(50)  primary key not null,
 password varchar(50),
-loginId int primary key identity(100,1),
-foreign key (UserId) references Customer_Registration(UserId),
+
 
 );
 insert into login(password) values('Vamsi@22')
