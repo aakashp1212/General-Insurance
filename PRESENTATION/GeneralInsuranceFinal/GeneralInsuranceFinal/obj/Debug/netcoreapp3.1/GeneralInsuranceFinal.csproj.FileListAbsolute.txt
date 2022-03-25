@@ -197,3 +197,11 @@ D:\projects repo\repo\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\
 D:\projects repo\repo\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.dll
 D:\projects repo\repo\1.7\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.pdb
 >>>>>>> 39a5a5c65f8ca526c310a0adf0c9938583a031e5
+E:\LTI - PROJECT\git project\PRESENTATION\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.csproj.AssemblyReference.cache
+E:\LTI - PROJECT\git project\PRESENTATION\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.GeneratedMSBuildEditorConfig.editorconfig
+E:\LTI - PROJECT\git project\PRESENTATION\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.AssemblyInfoInputs.cache
+E:\LTI - PROJECT\git project\PRESENTATION\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.AssemblyInfo.cs
+E:\LTI - PROJECT\git project\PRESENTATION\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.csproj.CoreCompileInputs.cache
+E:\LTI - PROJECT\git project\PRESENTATION\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.MvcApplicationPartsAssemblyInfo.cache
+E:\LTI - PROJECT\git project\PRESENTATION\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.dll
+E:\LTI - PROJECT\git project\PRESENTATION\GeneralInsuranceFinal\GeneralInsuranceFinal\obj\Debug\netcoreapp3.1\GeneralInsuranceFinal.pdb
