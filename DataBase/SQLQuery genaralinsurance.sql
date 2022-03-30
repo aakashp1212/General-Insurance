@@ -36,7 +36,15 @@ em
 customerId int primary key identity(1,1) not null,
 email varchar(50)
 );
+
+
+
+
  insert into Customer_Registration(firstName,address,password,contactNo,email,userId) values('Vamsi','11/322 anthony','Vamsi@22',99892826,'vamsi@gmail.com',1000)
+
+
+
+
 
 alter table Customer_Registration add  userId int unique
 select *  from Customer_Registration
@@ -47,7 +55,13 @@ email varchar(50)  primary key not null,
 password varchar(50),
 
 
+
+
+
 );
+
+
+
 insert into login(password) values('Vamsi@22')
 drop table login
 select * from login

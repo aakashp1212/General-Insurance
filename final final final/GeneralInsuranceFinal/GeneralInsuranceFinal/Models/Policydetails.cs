@@ -15,12 +15,15 @@ namespace GeneralInsuranceFinal.Models
         }
 
         public int PolicyNumber { get; set; }
+        public int? DurationId { get; set; }
+        public int? PlanId { get; set; }
         public int? CustomerId { get; set; }
-        public string DurationValue { get; set; }
-        public string VehicleType { get; set; }
-        public string PlanName { get; set; }
+        public int? VehicletypeId { get; set; }
 
         public virtual CustomerRegistration Customer { get; set; }
+        public virtual Insuranceduration Duration { get; set; }
+        public virtual Insuranceplantype Plan { get; set; }
+        public virtual Vehicletypes Vehicletype { get; set; }
         public virtual ICollection<Claimhistory> Claimhistory { get; set; }
     }
 }

@@ -18,7 +18,7 @@ export class CustomerregistrationService {
      return this.register.get('http://localhost:37841/api/Registration/all' )
    }
    addCustomer(data: any):Observable<any>{
-    return this.register.post('http://localhost:37841/api/Registration', data)
+    return this.register.post('http://localhost:45930/api/Registration', data)
   }
   getCustomerById(data: any):Observable<any>{
     return this.register.post('http://localhost:37841/api/Registration/', data)

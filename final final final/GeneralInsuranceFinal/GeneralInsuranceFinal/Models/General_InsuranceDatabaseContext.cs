@@ -34,7 +34,7 @@ namespace GeneralInsuranceFinal.Models
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseSqlServer("Server=LAPTOP-88RRGP6T;Database=General_InsuranceDatabase;Trusted_Connection=True;");
+                optionsBuilder.UseSqlServer("Server=MANGALAVAMSI\\MANGALAVAMSI;Database=General_InsuranceDatabase;User Id=sa;Password=Vamsi@22;");
             }
         }
 
@@ -113,10 +113,10 @@ namespace GeneralInsuranceFinal.Models
                     .HasMaxLength(50)
                     .IsUnicode(false);
 
-                entity.Property(e => e.Password)
-                    .HasColumnName("password")
-                    .HasMaxLength(50)
-                    .IsUnicode(false);
+                entity.HasOne(d => d.EmailNavigation)
+                    .WithMany(p => p.CustomerRegistration)
+                    .HasForeignKey(d => d.Email)
+                    .HasConstraintName("FK_Customer_Registration_login");
             });
 
             modelBuilder.Entity<Insuranceduration>(entity =>
@@ -179,25 +179,31 @@ namespace GeneralInsuranceFinal.Models
 
                 entity.Property(e => e.CustomerId).HasColumnName("customerId");
 
-                entity.Property(e => e.DurationValue)
-                    .HasColumnName("durationValue")
-                    .HasMaxLength(50)
-                    .IsUnicode(false);
+                entity.Property(e => e.DurationId).HasColumnName("durationId");
 
-                entity.Property(e => e.PlanName)
-                    .HasColumnName("planName")
-                    .HasMaxLength(50)
-                    .IsUnicode(false);
+                entity.Property(e => e.PlanId).HasColumnName("planId");
 
-                entity.Property(e => e.VehicleType)
-                    .HasColumnName("vehicleType")
-                    .HasMaxLength(50)
-                    .IsUnicode(false);
+                entity.Property(e => e.VehicletypeId).HasColumnName("vehicletypeId");
 
                 entity.HasOne(d => d.Customer)
                     .WithMany(p => p.Policydetails)
                     .HasForeignKey(d => d.CustomerId)
                     .HasConstraintName("FK__policydet__vehic__5535A963");
+
+                entity.HasOne(d => d.Duration)
+                    .WithMany(p => p.Policydetails)
+                    .HasForeignKey(d => d.DurationId)
+                    .HasConstraintName("FK__policydet__durat__5629CD9C");
+
+                entity.HasOne(d => d.Plan)
+                    .WithMany(p => p.Policydetails)
+                    .HasForeignKey(d => d.PlanId)
+                    .HasConstraintName("FK__policydet__planI__571DF1D5");
+
+                entity.HasOne(d => d.Vehicletype)
+                    .WithMany(p => p.Policydetails)
+                    .HasForeignKey(d => d.VehicletypeId)
+                    .HasConstraintName("FK__policydet__vehic__5812160E");
             });
 
             modelBuilder.Entity<Vehiclesdetails>(entity =>
@@ -241,15 +247,17 @@ namespace GeneralInsuranceFinal.Models
 
                 entity.Property(e => e.VehicleAge).HasColumnName("vehicleAge");
 
-                entity.Property(e => e.VehicleType)
-                    .HasColumnName("vehicleType")
-                    .HasMaxLength(50)
-                    .IsUnicode(false);
+                entity.Property(e => e.VehicleTypeId).HasColumnName("vehicleTypeId");
 
                 entity.HasOne(d => d.Customer)
                     .WithMany(p => p.Vehiclesdetails)
                     .HasForeignKey(d => d.CustomerId)
                     .HasConstraintName("FK__vehiclesd__custo__440B1D61");
+
+                entity.HasOne(d => d.VehicleType)
+                    .WithMany(p => p.Vehiclesdetails)
+                    .HasForeignKey(d => d.VehicleTypeId)
+                    .HasConstraintName("FK__vehiclesd__vehic__44FF419A");
             });
 
             modelBuilder.Entity<Vehicletypes>(entity =>
