@@ -1,6 +1,6 @@
 
 
-<form [formGroup]="renew" (ngSubmit)="submitData()">
+<form [formGroup]="renew" #result="ngForm"   (ngSubmit)="submitData(result.value)">
 
     <div class="head">
     <h1>Enter Policy Details</h1>
@@ -11,39 +11,39 @@
           </div>
     
         <div class="form-group">
-            <label for="policynumber">please enter your PolicyNumber:&nbsp;</label>
-            <input type="number" class="form-control" name="policynumber" id="policynumber" formControlName="policynumber">
+            <label for="policyNumber">please enter your PolicyNumber:&nbsp;</label>
+            <input type="number" class="form-control" name="policyNumber" id="policyNumber" formControlName="policyNumber">
         </div>
     
-        <div [hidden]="renew.controls['policynumber'].valid || renew.controls['policynumber'].pristine"
+        <div [hidden]="renew.controls['policyNumber'].valid || renew.controls['policyNumber'].pristine"
             class="alert alert-danger">
-            <div *ngIf="renew.controls['policynumber'].errors?.['required']">
+            <div *ngIf="renew.controls['policyNumber'].errors?.['required']">
                  please enter your Policy number
             </div>
             </div>
         
             <div class="form-group">
-                <label for="phnnumber">Enter your Contact number:&nbsp;</label>
-                <input type="text" class="form-control" name="phnnumber" id="phnnumber" formControlName="phnnumber">
+                <label for="contactNo">Enter your Contact number:&nbsp;</label>
+                <input type="text" class="form-control" name="contactNo" id="contactNo" formControlName="contactNo">
             </div>
         
-            <div [hidden]="renew.controls['phnnumber'].valid || renew.controls['phnnumber'].pristine"
+            <div [hidden]="renew.controls['contactNo'].valid || renew.controls['contactNo'].pristine"
                 class="alert alert-danger">
-                <div *ngIf="renew.controls['phnnumber'].errors?.['required']">
+                <div *ngIf="renew.controls['contactNo'].errors?.['required']">
                    kindly provide contact number 
                 </div>
             </div> 
             <div class="form-group">
-                <label for="username">Please enter your Email:&nbsp;</label>
-                <input type="email" class="form-control" name="username" id="username" formControlName="username">
+                <label for="Email">Please enter your Email:&nbsp;</label>
+                <input type="Email" class="form-control" name="Email" id="Email" formControlName="Email">
             </div>
         
-            <div [hidden]="renew.controls['username'].valid || renew.controls['username'].pristine"
+            <div [hidden]="renew.controls['Email'].valid || renew.controls['Email'].pristine"
                 class="alert alert-danger">
-                <div *ngIf="renew.controls['username'].errors?.['required']">
+                <div *ngIf="renew.controls['Email'].errors?.['required']">
                     please enter your email
                 </div>
-                <div *ngIf="renew.controls['username'].errors?.['email']">
+                <div *ngIf="renew.controls['Email'].errors?.['Email']">
                     please ensure that the text you entered must be an email id
                 </div>
             </div>

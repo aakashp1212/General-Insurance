@@ -2,8 +2,9 @@
 
 namespace GeneralInsuranceFinal.Interfaces
 {
-    public interface IRenew
+    public interface Interfacelogin
     {
-        int Updatepolicy(Policydetails policydetails);
+        bool Login(CustomerRegistration customerdata);
+
     }
 }

@@ -1,5 +1,4 @@
-﻿
-using GeneralInsuranceFinal.Interfaces;
+﻿using GeneralInsuranceFinal.Interfaces;
 using GeneralInsuranceFinal.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -19,18 +18,18 @@ namespace GeneralInsuranceFinal.Controllers
 
         }
 
-        //[HttpPut]
-        //public IActionResult Updatepolicy(int id,[FromBody] Policydetails policydetails)
-        //{
-        //    var result = objrenew.Updatepolicy(id, policydetails);
-        //    return this.CreatedAtAction("Updatepolicy(", $"{result} record added ");
-        //}
+        [HttpPut]
+        public IActionResult Updatepolicy(Policydetails policydetails)
+        {
+            var result = objrenew.Updatepolicy(policydetails);
+            return this.CreatedAtAction("Updatepolicy(", $"{result} record updated ");
+        }
 
         //[HttpPut]
         //[Route("update")]
         //public IActionResult Updatepolicy(int id, Policydetails policydetails)
         //{
-        //    var result = objrenew.Updatepolicy(policydetails);
+        //    var result = objrenew.Updatepolicy(id policydetails);
         //    return this.CreatedAtAction("Updatepolicy(", $"{result} record added ");
         //}
 

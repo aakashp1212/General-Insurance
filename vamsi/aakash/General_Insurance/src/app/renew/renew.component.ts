@@ -2,6 +2,7 @@
 
 import { Component, OnInit } from '@angular/core';
 import { FormGroup,Validators,FormBuilder} from '@angular/forms'
+import { RenewserviceService } from './renewservice.service';
 
 
 @Component({
@@ -13,10 +14,10 @@ export class RenewComponent implements OnInit {
 
   private _renew: FormGroup = this._fb.group(
     {
-    policynumber: ['',[Validators.required]],
-    username: [ '', [Validators.required, Validators.email]],  
+    policyNumber: ['',[Validators.required]],
+    Email: [ '', [Validators.required, Validators.email]],  
       
-    phnnumber: [ '',  [Validators.required]]
+    contactNo: [ '',  [Validators.required]]
     
     }
 );
@@ -27,12 +28,17 @@ public set renew(value: FormGroup) {
     this._renew = value;
 }
 
-  constructor(private _fb: FormBuilder) { }
+  constructor(private _fb: FormBuilder, private _updaterenew : RenewserviceService) { }
 
   ngOnInit(): void {
   }
 
-  submitData() {
-    console.log(this.renew)
+  submitData(data: any) {
+  this._updaterenew.updatedetails(data).subscribe();
+
+   
   }
+
+
+  
 }

@@ -29,6 +29,8 @@ import { CalcfourinsuranceService } from './calcfourinsurance.service';
 import { VehicleregistrationService } from './vehicleregistration.service';
 import { plansservice } from './plan-table/plans.service';
 import { ClaimreasonsService } from './claimreasons.service';
+import { RenewserviceService } from './renew/renewservice.service';
+
 
 @NgModule({
   declarations: [
@@ -48,7 +50,8 @@ import { ClaimreasonsService } from './claimreasons.service';
         HelpComponent,
         FaqComponent,
         CalcfourComponent,
-        CalctwoComponent
+        CalctwoComponent,
+     
  
   ],
   imports: [
@@ -57,7 +60,7 @@ import { ClaimreasonsService } from './claimreasons.service';
     NgbModule,FormsModule,ReactiveFormsModule,HttpClientModule
   ],
   exports:[ClaimComponent],
-  providers: [CustomerregistrationService,VehicleregistrationService ,CalcfourinsuranceService,plansservice,ClaimreasonsService],
+  providers: [CustomerregistrationService,VehicleregistrationService ,CalcfourinsuranceService,plansservice,ClaimreasonsService,RenewserviceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
