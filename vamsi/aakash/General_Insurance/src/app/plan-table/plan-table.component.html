@@ -25,9 +25,21 @@
      
      
     </select>
+
+
+
    </div>
+
+
+   <div class="form-group">
+    <label for="policyNumber">please enter your PolicyNumber:&nbsp;</label>
+    <input type="number" class="form-control" name="policyNumber" id="policyNumber" formControlName="policyNumber">
+</div>
+
+
+
    
-   <button type="submit" class="payment-button" (click)="onclick()" >Make payment</button>
+   <button type="submit" class="payment-button" (click)="submitrenew(form.value)" >Make payment</button>
 
 
 

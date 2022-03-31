@@ -12,6 +12,8 @@
         "selectedplan",
         "splchar",
         "submitdata",
+        "submitrenew",
+        "updatedetails",
         "vehicleregistration",
         "vehicletypes"
     ]

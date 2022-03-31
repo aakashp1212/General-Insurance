@@ -1,5 +1,6 @@
 ﻿using GeneralInsuranceFinal.Interfaces;
 using GeneralInsuranceFinal.Models;
+using Microsoft.EntityFrameworkCore;
 using System.Linq;
 
 namespace GeneralInsuranceFinal.DataAccessLayer
@@ -27,10 +28,20 @@ namespace GeneralInsuranceFinal.DataAccessLayer
 
 
 
-        public int Updatepolicy(int id, Policydetails policydetails)
+        public int Updatepolicy(Policydetails policydetails)
         {
-            var entity = db.Policydetails.Where(n => n.PolicyNumber == id);
-            if (entity != null) ;
+            var details = db.Policydetails.Where(n => n.PolicyNumber == policydetails.PolicyNumber).FirstOrDefault<Policydetails>();
+            if (details != null)
+            {
+                details.PolicyNumber = policydetails.PolicyNumber;
+                details.DurationValue = policydetails.DurationValue;
+                details.VehicleType = policydetails.VehicleType;
+                details.PolicyNumber = policydetails.PolicyNumber;
+                details.PlanName = policydetails.PlanName;
+                db.SaveChanges();
+
+            }
+
             return db.SaveChanges();
 
 

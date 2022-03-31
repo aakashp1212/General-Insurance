@@ -16,15 +16,19 @@ export class CalctwoComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  calculate (data: any) {console.log(data.value);
+  calculate () {
 
-    if(this.age < 5   ){
-      this.amount=5000;
-    
-    
-    }    
-    else if (this.age >10){
-    this.amount=10000;
+   
+if(this.age <= 5)
+this.result=100000;  
+else if (this.age > 10 && this.age <= 15 )
+this.result=50000;
+else if (this.age > 15 && this.age <=20 )
+this.result=20000;
+else if (this.age > 20 && this.age <=30 )
+this.result=5000;
+else if (this.age > 30  )
+this.result="not eligible";
     }
     }
-}
+  

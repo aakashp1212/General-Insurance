@@ -18,7 +18,10 @@ export class plansservice {
    selectdata(data: any):Observable<any>{
        return this._plansservice.post('http://localhost:37841/api/Buyinsurance/plan', data);
    }
-
+   updatedetails(data : any) : Observable<any>{
+    return this._plansservice.put('http://localhost:37841/api/Renewinsurance' , data);
+ 
+   }
 
  
 }

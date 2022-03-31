@@ -20,8 +20,14 @@ export class plansservice {
    }
 
 
+   updatedetails(data : any) : Observable<any>{
+    return this._plansservice.put('http://localhost:37841/api/Renewinsurance/update' , data);
+ 
+  
+
+
  
 }
 
-
+}
 
