@@ -5,6 +5,7 @@
         "currentlength",
         "customerregistration",
         "expectedlength",
+        "insuranceplantype",
         "maxlengtherror",
         "minlengtherror",
         "retypepassword",
