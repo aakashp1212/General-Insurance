@@ -29,6 +29,7 @@ import { CalcfourinsuranceService } from './calcfourinsurance.service';
 import { VehicleregistrationService } from './vehicleregistration.service';
 import { plansservice } from './plan-table/plans.service';
 import { ClaimreasonsService } from './claimreasons.service';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +49,8 @@ import { ClaimreasonsService } from './claimreasons.service';
         HelpComponent,
         FaqComponent,
         CalcfourComponent,
-        CalctwoComponent
+        CalctwoComponent,
+        DashboardComponent
  
   ],
   imports: [

@@ -124,7 +124,7 @@ export class  CustomerRegistrationComponent implements OnInit {
                     next: (result: any) => alert(result),
                     error: (err) => console.log(err),
                 complete: () => {
-                         this._router.navigateByUrl('http://localhost:37841/api/Buyinsurance/addvehicledetails')
+                         this._router.navigateByUrl('http://localhost:45930/api/Buyinsurance/addvehicledetails')
                    }
             
            

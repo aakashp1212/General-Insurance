@@ -5721,19 +5721,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\aakas\\.nuget\\packages\\": {}
+    "C:\\Users\\vamsi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\LTI - PROJECT\\git project\\FINAL DRAFT\\1.7\\GeneralInsuranceFinal\\GeneralInsuranceFinal\\GeneralInsuranceFinal.csproj",
+      "projectUniqueName": "D:\\projects repo\\General-Insurance\\final final final\\GeneralInsuranceFinal\\GeneralInsuranceFinal\\GeneralInsuranceFinal.csproj",
       "projectName": "GeneralInsuranceFinal",
-      "projectPath": "E:\\LTI - PROJECT\\git project\\FINAL DRAFT\\1.7\\GeneralInsuranceFinal\\GeneralInsuranceFinal\\GeneralInsuranceFinal.csproj",
-      "packagesPath": "C:\\Users\\aakas\\.nuget\\packages\\",
-      "outputPath": "E:\\LTI - PROJECT\\git project\\FINAL DRAFT\\1.7\\GeneralInsuranceFinal\\GeneralInsuranceFinal\\obj\\",
+      "projectPath": "D:\\projects repo\\General-Insurance\\final final final\\GeneralInsuranceFinal\\GeneralInsuranceFinal\\GeneralInsuranceFinal.csproj",
+      "packagesPath": "C:\\Users\\vamsi\\.nuget\\packages\\",
+      "outputPath": "D:\\projects repo\\General-Insurance\\final final final\\GeneralInsuranceFinal\\GeneralInsuranceFinal\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\aakas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\vamsi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5788,7 +5788,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
