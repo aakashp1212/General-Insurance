@@ -14,6 +14,7 @@ import { CalcfourComponent } from './calcfour/calcfour.component';
 import { CalctwoComponent } from './calctwo/calctwo.component';
 import { VehicleRegistrationComponent } from './vehicle-registration/vehicle-registration.component';
 import { PlanTableComponent } from './plan-table/plan-table.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 
 const routes: Routes = [
@@ -39,7 +40,10 @@ const routes: Routes = [
 
    {path: 'plan-table', component: PlanTableComponent},
   
-   { path: '', component: HomeComponent,pathMatch:"full" }
+   { path: '', component: HomeComponent,pathMatch:"full" },
+   {
+     path:'dashboard',component:DashboardComponent
+   }
 ];
 
 @NgModule({
